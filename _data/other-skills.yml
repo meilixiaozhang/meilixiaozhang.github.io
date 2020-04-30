@@ -1,0 +1,15 @@
+- name: Sketch
+  percentage: 95
+  color: info
+
+- name: Figma
+  percentage: 85
+  color: warning
+
+- name: Adobe Photoshop
+  percentage: 80
+  color: primary
+
+- name: Baking
+  percentage: 100
+  color: danger
