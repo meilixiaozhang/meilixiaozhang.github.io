@@ -1,40 +1,37 @@
 ### Site Settings ###
-title               : meilixiaozhang
-description         : >-
-                      "I bake breads 🍞 🥖 🥨,pastreies, and code,
-                      use tabs over spaces
-                      and never broke production."
-baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
-repository          : meilixiaozhang/meilixiaozhang.github.io     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
-remote_theme        : YoussefRaafatNasry/portfolYOU
-
+title: meilixiaozhang
+description: >-
+  "I bake breads 🍞 🥖 🥨,pastreies, and code,
+  use tabs over spaces
+  and never broke production."
+baseurl: "" # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
+repository: meilixiaozhang/meilixiaozhang.github.io # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
+remote_theme: YoussefRaafatNasry/portfolYOU
 
 ### Plugins ###
 plugins:
   - jemoji
 
-
 ### Navbar Settings ###
-nav_exclude:                                            # The following paths are excluded from navbar
+nav_exclude: # The following paths are excluded from navbar
   - pages/tags.html
   - pages/404.html
   - pages/index.md
-  - documentation/partials/**                           # For Documentation Only
-
+  - documentation/partials/** # For Documentation Only
 
 ### Author Info ###
 author:
-  name              : Xiaoran Zhang
-  image             : https://avatars2.githubusercontent.com/u/41104185?s=400&u=d7f5b59d017136e42ef5284ae0671cc87c2385ff&v=4
-# behance           : your_username
-# dribbble          : your_username
-  email             : xiaoranzhang08@gmail.com
-# facebook          : your_username
-  github            : meilixiaozhang
-# gitlab            : your_username
-# instagram         : your_username
-# kaggle            : your_username
-  linkedin          : xiaoran-zhang-1b2587181
+  name: Xiaoran Zhang
+  image: https://avatars2.githubusercontent.com/u/41104185?s=400&u=d7f5b59d017136e42ef5284ae0671cc87c2385ff&v=4
+  # behance           : your_username
+  # dribbble          : your_username
+  email: xiaoranzhang08@gmail.com
+  # facebook          : your_username
+  github: meilixiaozhang
+  # gitlab            : your_username
+  # instagram         : your_username
+  # kaggle            : your_username
+  linkedin: xiaoran-zhang
 # medium            : your_username
 # soundcloud        : your_username
 # spotify           : your_username
@@ -45,7 +42,6 @@ author:
 # vimeo             : your_username
 # youtube           : your_channel_name
 
-
 ### Posts ###
 permalink: /blog/:title
 
@@ -53,12 +49,10 @@ collections:
   projects:
     output: true
     permalink: /projects/:name
-  elements:                                             # For Documentation Only
-    output: true                                        # For Documentation Only
+  elements: # For Documentation Only
+    output: true # For Documentation Only
 
-
-disqus: meilixiaozhang                          # Your website Shortname on disqus
-
+disqus: meilixiaozhang # Your website Shortname on disqus
 
 defaults:
   - scope:
@@ -66,16 +60,16 @@ defaults:
       type: "projects"
     values:
       layout: "page"
-  - scope:                                              # For Documentation Only
-      path: ""                                          # For Documentation Only
-      type: "elements"                                  # For Documentation Only
-    values:                                             # For Documentation Only
-      layout: "element"                                 # For Documentation Only
+  - scope: # For Documentation Only
+      path: "" # For Documentation Only
+      type: "elements" # For Documentation Only
+    values: # For Documentation Only
+      layout: "element" # For Documentation Only
   - scope:
       path: ""
       type: "posts"
     values:
-      comments: true                                   # Set to true to enable disqus comments
+      comments: true # Set to true to enable disqus comments
 
 exclude:
   - README.md

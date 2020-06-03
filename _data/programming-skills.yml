@@ -3,11 +3,27 @@
   color: danger
 
 - name: JavaScript
+  percentage: 88
+  color: warning
+
+- name: React.js
+  percentage: 95
+  color: success
+
+- name: Node.js
+  percentage: 90
+  color: primary
+
+- name: AWS
   percentage: 85
   color: warning
 
+- name: MongoDB
+  percentage: 95
+  color: success
+
 - name: Python
-  percentage: 80
+  percentage: 85
   color: dark
 
 - name: C
